@@ -1,0 +1,463 @@
+object Form1: TForm1
+  Left = 182
+  Height = 442
+  Top = 161
+  Width = 684
+  BorderStyle = bsSingle
+  Caption = 'GetHash'
+  ClientHeight = 442
+  ClientWidth = 684
+  OnClose = FormClose
+  OnCreate = FormCreate
+  LCLVersion = '3.2.0.0'
+  object PageControl1: TPageControl
+    Left = 0
+    Height = 392
+    Top = 0
+    Width = 684
+    ActivePage = TabSheet1
+    Align = alTop
+    TabIndex = 0
+    TabOrder = 0
+    OnChange = PageControl1Change
+    OnMouseMove = PageControl1MouseMove
+    object TabSheet1: TTabSheet
+      Caption = 'Текст'
+      ClientHeight = 365
+      ClientWidth = 680
+      object GroupBox1: TGroupBox
+        Left = 0
+        Height = 88
+        Top = 0
+        Width = 680
+        Align = alTop
+        Caption = 'Основные параметры'
+        ClientHeight = 69
+        ClientWidth = 676
+        TabOrder = 0
+        object LabeledEdit1: TLabeledEdit
+          Left = 8
+          Height = 26
+          Top = 24
+          Width = 656
+          AutoSize = False
+          EditLabel.Height = 17
+          EditLabel.Width = 656
+          EditLabel.Caption = 'Строка текста'
+          TabOrder = 0
+          OnChange = PageControl1Change
+        end
+      end
+      object GroupBox2: TGroupBox
+        Left = 0
+        Height = 272
+        Top = 88
+        Width = 680
+        Align = alTop
+        Caption = 'Результаты'
+        ClientHeight = 253
+        ClientWidth = 676
+        TabOrder = 1
+        object StringGrid1: TStringGrid
+          Left = 0
+          Height = 253
+          Top = 0
+          Width = 676
+          Align = alClient
+          ColCount = 1
+          DefaultColWidth = 200
+          FixedRows = 0
+          Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRowSelect, goDblClickAutoSize, goSmoothScroll, goSelectionActive]
+          ParentShowHint = False
+          PopupMenu = PopupMenu1
+          RowCount = 0
+          ScrollBars = ssAutoVertical
+          ShowHint = True
+          TabOrder = 0
+          OnMouseMove = StringGrid2MouseMove
+          OnSelection = StringGrid1Selection
+        end
+      end
+    end
+    object TabSheet2: TTabSheet
+      Caption = 'Файл'
+      ClientHeight = 365
+      ClientWidth = 680
+      object GroupBox4: TGroupBox
+        Left = 0
+        Height = 88
+        Top = 0
+        Width = 680
+        Align = alTop
+        Caption = 'Основные параметры'
+        ClientHeight = 69
+        ClientWidth = 676
+        TabOrder = 0
+        object SpeedButton1: TSpeedButton
+          Left = 608
+          Height = 31
+          Top = 20
+          Width = 55
+          Caption = '...'
+          OnClick = SpeedButton1Click
+        end
+        object Edit1: TEdit
+          Left = 8
+          Height = 26
+          Top = 24
+          Width = 592
+          ReadOnly = True
+          TabOrder = 0
+        end
+      end
+      object GroupBox5: TGroupBox
+        Left = 0
+        Height = 272
+        Top = 88
+        Width = 680
+        Align = alTop
+        Caption = 'Результаты'
+        ClientHeight = 253
+        ClientWidth = 676
+        TabOrder = 1
+        object StringGrid2: TStringGrid
+          Left = 0
+          Height = 253
+          Top = 0
+          Width = 676
+          Align = alClient
+          ColCount = 1
+          DefaultColWidth = 200
+          FixedRows = 0
+          Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRowSelect, goDblClickAutoSize, goSmoothScroll, goSelectionActive]
+          ParentShowHint = False
+          PopupMenu = PopupMenu1
+          RowCount = 0
+          ScrollBars = ssAutoVertical
+          ShowHint = True
+          TabOrder = 0
+          OnMouseMove = StringGrid2MouseMove
+          OnSelection = StringGrid2Selection
+        end
+      end
+    end
+    object TabSheet3: TTabSheet
+      Caption = 'Список файлов'
+      ClientHeight = 365
+      ClientWidth = 680
+      object GroupBox6: TGroupBox
+        Left = 0
+        Height = 88
+        Top = 0
+        Width = 680
+        Align = alTop
+        Caption = 'Основные параметры'
+        ClientHeight = 69
+        ClientWidth = 676
+        TabOrder = 0
+        object SpeedButton2: TSpeedButton
+          Left = 16
+          Height = 31
+          Top = 16
+          Width = 96
+          Caption = 'Добавить'
+          Flat = True
+          Images = ImageList1
+          ImageIndex = 0
+          OnClick = SpeedButton2Click
+          ParentFont = False
+        end
+        object SpeedButton3: TSpeedButton
+          Left = 120
+          Height = 31
+          Top = 16
+          Width = 96
+          Caption = 'Удалить'
+          Enabled = False
+          Flat = True
+          Images = ImageList1
+          ImageIndex = 1
+          OnClick = SpeedButton3Click
+          ParentFont = False
+        end
+        object SpeedButton4: TSpeedButton
+          Left = 224
+          Height = 31
+          Top = 16
+          Width = 96
+          Caption = 'Очистить'
+          Enabled = False
+          Flat = True
+          Images = ImageList1
+          ImageIndex = 2
+          OnClick = SpeedButton4Click
+          ParentFont = False
+        end
+        object SpeedButton5: TSpeedButton
+          Left = 560
+          Height = 31
+          Top = 16
+          Width = 96
+          Caption = 'Старт'
+          Enabled = False
+          Flat = True
+          Images = ImageList1
+          ImageIndex = 3
+          OnClick = SpeedButton5Click
+          ParentFont = False
+        end
+      end
+      object GroupBox7: TGroupBox
+        Left = 0
+        Height = 272
+        Top = 88
+        Width = 680
+        Align = alTop
+        Caption = 'Результаты'
+        ClientHeight = 253
+        ClientWidth = 676
+        TabOrder = 1
+        object StringGrid3: TStringGrid
+          Left = 0
+          Height = 253
+          Top = 0
+          Width = 676
+          Align = alClient
+          ColCount = 3
+          DefaultColWidth = 200
+          FixedCols = 0
+          Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goColSizing, goRowSelect, goDblClickAutoSize, goSmoothScroll, goHeaderHotTracking, goSelectionActive, goCellHints, goRowHighlight]
+          ParentShowHint = False
+          PopupMenu = PopupMenu1
+          RowCount = 1
+          ShowHint = True
+          TabOrder = 0
+          OnCellProcess = StringGrid3CellProcess
+          OnClick = StringGrid3Click
+          OnDrawCell = StringGrid3DrawCell
+          OnMouseMove = StringGrid3MouseMove
+          OnSelection = StringGrid3Selection
+        end
+      end
+    end
+    object TabSheet4: TTabSheet
+      Caption = 'Настройки'
+      ClientHeight = 365
+      ClientWidth = 680
+      object CheckGroup1: TCheckGroup
+        Left = 0
+        Height = 105
+        Top = 0
+        Width = 680
+        Align = alTop
+        AutoFill = True
+        Caption = 'Алгоритмы'
+        ChildSizing.LeftRightSpacing = 6
+        ChildSizing.TopBottomSpacing = 6
+        ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+        ChildSizing.EnlargeVertical = crsHomogenousChildResize
+        ChildSizing.ShrinkHorizontal = crsScaleChilds
+        ChildSizing.ShrinkVertical = crsScaleChilds
+        ChildSizing.Layout = cclLeftToRightThenTopToBottom
+        ChildSizing.ControlsPerLine = 3
+        ClientHeight = 86
+        ClientWidth = 676
+        Columns = 3
+        Items.Strings = (
+          'BLAKE2B 512'
+          'BLAKE2s 256'
+          'CRC32'
+          'GOST R 34.11-2012 256'
+          'GOST R 34.11-2012 512'
+          'GOST R34.11-94'
+          'MD5'
+          'SHA1'
+          'SHA256'
+          'SHA3-256'
+          'SHA3-512'
+          'SHA512'
+        )
+        OnClick = CheckGroup1Click
+        OnItemClick = CheckGroup1ItemClick
+        TabOrder = 0
+        Data = {
+          0C000000020202020202020202020202
+        }
+      end
+      object GroupBox3: TGroupBox
+        Left = 0
+        Height = 73
+        Top = 105
+        Width = 680
+        Align = alTop
+        Caption = 'Прочее'
+        ClientHeight = 54
+        ClientWidth = 676
+        TabOrder = 1
+        object CheckBox1: TCheckBox
+          Left = 8
+          Height = 21
+          Top = 3
+          Width = 262
+          Caption = 'Копировать хеш при выделении ячейки'
+          Checked = True
+          State = cbChecked
+          TabOrder = 0
+          OnChange = CheckBox1Change
+        end
+        object CheckBox2: TCheckBox
+          Left = 8
+          Height = 21
+          Hint = 'Сохранять в CSV, либо в XML'
+          Top = 24
+          Width = 176
+          Caption = 'Сохранять в формате CSV'
+          Checked = True
+          ParentShowHint = False
+          ShowHint = True
+          State = cbChecked
+          TabOrder = 1
+          OnChange = CheckBox2Change
+        end
+      end
+      object GroupBox8: TGroupBox
+        Left = 0
+        Height = 174
+        Top = 178
+        Width = 680
+        Align = alTop
+        Caption = 'GroupBox8'
+        ClientHeight = 155
+        ClientWidth = 676
+        TabOrder = 2
+        object Memo1: TMemo
+          Left = 0
+          Height = 155
+          Top = 0
+          Width = 676
+          Align = alClient
+          Alignment = taCenter
+          Font.Height = -16
+          Lines.Strings = (
+            'GetHash - вычисление хеш сумм различными алгоритмами.'
+            'https://github.com/x09/gethash'
+            ''
+            'При разработке использовался '
+            'код библиотек https://github.com/Xor-el/HashLib4Pascal'
+            ''
+            'Отправной точкой разработки явилось то что в gtkHash'
+            ' не были найдены современные GOST алгоритмы.'
+            ''
+            'Вопросы - shevtsov.anton@gmail.com'
+          )
+          ParentFont = False
+          ScrollBars = ssAutoBoth
+          TabOrder = 0
+        end
+      end
+    end
+  end
+  object ProgressBar1: TProgressBar
+    Left = 0
+    Height = 20
+    Top = 402
+    Width = 684
+    Align = alBottom
+    Smooth = True
+    TabOrder = 1
+    Visible = False
+  end
+  object StatusBar1: TStatusBar
+    Left = 0
+    Height = 20
+    Top = 422
+    Width = 684
+    Panels = <>
+  end
+  object OpenDialog1: TOpenDialog
+    Left = 400
+    Top = 56
+  end
+  object IniPropStorage1: TIniPropStorage
+    StoredValues = <>
+    Left = 440
+    Top = 56
+  end
+  object ImageList1: TImageList
+    Left = 487
+    Top = 63
+    Bitmap = {
+      4C7A040000001000000010000000320700000000000078DAED576B5053471426
+      31828600790026101069018B0312B0BCA2764054A020820415451021F2882296
+      82A2851241F1315ADB696B09600502C6A0F22ED5567CB555531E42A71DE5A550
+      C0823C84111DD2DCD3BDE9A5A516107F74A6D3E9CE7C733767CFB77BCEEEFD4E
+      F66A68FC3B9B933973A9E30246207A7A32B535F55E955FB62FA04B213D04D519
+      214F9CCC19AB5F955F250E86EF0B0FC1E5A34258325F4FF0AAFCD2F702E1E667
+      895091B6111C4C5FCE47B92E95C7AFECBAB0670D9C4FF285AA8361188A1D4AF7
+      AD83C25D9E208D5B05F9A215589833276932FE92F9F4C02F0F4740794A2094ED
+      0F808B7B7C40265A06F25DEE688EB5C8E60F9569EB2164C93CD9647C14A3679E
+      D065F8EC4E37284238FFAE379426794249A217FAED0E453BDC412A72834DF686
+      2726E333A8B3E9F626BA5E3C139D201E5727481AB71A6A8E8442718227F82E62
+      1DB7E16807D9B0A941A60C2DB329B680824045C0CF9A5E10E709B73E8D45B1FB
+      01E28511761AC2EC29F89A7818081C04B3FC9DABA0216F0F54A606E0FC586433
+      4230409883409A844F26E6C663981760AB7F3298677029C8CE406AA4ABB98C58
+      5B8BF09BAE918835D8085C625DDD19F0269B873C45ACFFB7FF58FB43FF48FBC5
+      893E204FF006D96EA4BD784F2844DA2FD8E10179316ED3EABF3A331CCADE5BA7
+      D67A49B21F94EC5D03A5E8398E32A4A5E9F47F26D269581AB314D488E64341B4
+      2B1444FD8EFCEDAE80EAC374FAD743FAF744FA1720FD0BEC8C6982C5388CB405
+      B61C6D810D0E363510E97FFE4BF4AF4B687D32CC44FF6CA206BC08F60CF5AF45
+      F8BC082D620DF27FF93DA450E669D068DE2C1ACDC74D5BFB6D7F026E349A170B
+      1F7B59E3724B36D9DA7655ACF5EFEB1389069551D1034A2FEFDE3E6BEB07151C
+      CEB98D53F166CDF267989AFE7264B557AF7273E800C4C60D424CEC801A51A241
+      0808EA8765CB7B946C76C76132792DE345BE91D1851DEEEE3D83DE6FF7C1C993
+      4FA0A5F5390C0F8FC1F0C818B4A23E6E5BE1D1076FBEF970D0C0A0403491CBE1
+      9C307470E81859BEFC17282B1B8196B636686E6D05A552A906DEC76D65E523E0
+      E4F408162EBC37A2AF7FDC709CCF649E88E0F3BB55C19B7AE1E9D3E790272D80
+      DD8909F0E34F3FAA81F7711B3EB671632FF0780F553A3A87C2C7F974FAB1D388
+      0F9F9E1A80D167CF50CC2390917910B6466C83AD91DBE040463ACA65583D760A
+      F9F0785D40A3A5E78EF3F5F40E17393AFE0C67F2FAE1E9E8A8DAEFEAF5EBB039
+      6C0B6CDA120257AED6A86DF8585E7E3FD8D87400959A5638CED7D5CDFCC0CEAE
+      0352527BD46B37363541B83002D2D20F8038E3803A8686C646F5586A2A9EFF03
+      983B37F5F8389F46CBF0B3B2BA37C6E7B743EFE327703AEF0CA41F3A08ADED6D
+      6AE07DDC868FB9B8B4839959D39896D6BE357F9E402899CDBE5D6F65D58CC58A
+      3AE07ECB000C0C0DC12001BC8FDBF03133B37B188371B54E43C37FD6C4339C33
+      27662D97ABE8E4F15A61C3867628AF7C046D0FFAA1FD613F54A03E6EB3B16901
+      43C39B9DB36747FAFD5DFB147D0AC56F9B81C1C52E6BEBBB98BD7D0BD8DADE57
+      C3CEAE192C2DEB5474BABC934CF60945BE8C49FEABF1FA6441262FDAADA515FD
+      05937971485FFFB28AC5BAA462308A07353585E524D2A218FC6E42D4318D69EA
+      A036FE5A211812358B8E301797C93FA97D268BE5CC35E1FA189B1AB3B9A6261E
+      C6265CC1CCB94CE7B403E2CE42D9D9D1ACD3926B92DC9C7E59B11C2C2C2DE267
+      C247EBFA169E2D1A1D1A1AC214B5DFABBA7B7A54AD6D6D9833DF256B867C4E96
+      4472E38EE20EB6252CB4509293ADAA6F68C0F87CC7642B8B05120EC770EBB47C
+      5393955939D9FDDD3DDDAADCCF4F8FDD6D6A54DEBE731BDB2E0C477A68046747
+      FB1B46466C5F41E09ACA951ECB3EA651A99A13F9F85EC9E472F4BEB703E2AA6A
+      EBEBB03B0A05884451D0D9F5335CBE54ADCACD918C565655609F7CF291D2E235
+      B35D2FC6606165198FF2FD8CBFD4293922221471B703CA018AE43238959D0555
+      5F56435D433D88C5A9236CB6FE1B53E56265699E75A5E60ADC6BBE0F678BCF81
+      24371BDB9B9CF46B4979295CFBE63AC444470E71B95CD2C4B34B11BF0F7BF627
+      B726A524652424BE33B0393808E4C532905D9043FA41B1D29EB7F8685575A5EA
+      FAAD6FE0E8B1C3D83A7FDF872C26DD45FDADE6EA7CAEA3B313BA1F3D82AEEE6E
+      ACEFF163904AF3E1E48727A0E6E635B879EB5BF8FACA57585D5303281A6AE11C
+      9A334D9CFA84C562ACC2F92E7CD7F58ADA5A55F185F34A6174547DD30F3FA822
+      85E1AACC23995073E32A7CABB8058ABBB550DB580F497B13FA165A997F61F1BA
+      D9311D1D9AFE54FCF8DD3B55E2F4F7B1E0E0A06742E1D6E728072CFBF31CB0B4
+      30BF462269BC4526938D11287F8DBF078F1FF0F8D15CE0E0B0F83B06436F0372
+      F158E5F1D6684848F0C86B0B4C252412C99AB86BA8EFE768FFDCF1FD4375BE77
+      9D20B0223965FF5351DCCE668E11874F68D780C9D05BCF64D2FDA973E72C20F4
+      4D9958BE10CC115C1156E0D73942FB9A13EA0B699A6F0112E18BCFAB43DCA328
+      33D1CD6FF15BC4D0
+    }
+  end
+  object PopupMenu1: TPopupMenu
+    Left = 368
+    Top = 61
+    object MenuItem1: TMenuItem
+      Caption = 'Сохранить в файл'
+      OnClick = MenuItem1Click
+    end
+  end
+  object SaveDialog1: TSaveDialog
+    Left = 340
+    Top = 64
+  end
+end
