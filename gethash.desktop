@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=GetHash
+GenericName=gethash
+Comment=вычисление хеш сумм различными алгоритмами.
+Exec=/usr/bin/gethash 
+Icon=/usr/share/icons/hicolor/256x256/apps/gethash.png
+Terminal=false
+Type=Application
+Categories=Utility;
