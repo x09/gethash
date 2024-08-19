@@ -9,3 +9,5 @@ GetHash - вычисление хеш сумм различными алгори
 ![изображение](https://github.com/user-attachments/assets/d5656892-40cd-4c73-ac9d-07099f37f43e)
 
 ![изображение](https://github.com/user-attachments/assets/e0004f30-19c3-4b06-97be-8cdbbfa95208)
+
+RPM, RPMS для ОС Альт - http://altrepo.ru/
