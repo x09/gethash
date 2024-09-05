@@ -1,4 +1,4 @@
-GetHash - Кроссплатформенное (linux/windows/...) вычисление хеш сумм различными алгоритмами.
+# GetHash - Кроссплатформенное (linux/windows/...) вычисление хеш сумм различными алгоритмами.
 
 При разработке использовался код библиотек https://github.com/Xor-el/HashLib4Pascal
 
@@ -15,3 +15,6 @@ RPM, RPMS для ОС Альт - http://altrepo.ru/
 Windows - https://github.com/x09/gethash/releases/tag/v1.0
 
 ![изображение](https://github.com/user-attachments/assets/2cfb2a7e-b3f2-4b88-998f-21e99b89238d)
+
+# Консольная версия
+В процессе
