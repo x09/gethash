@@ -11,3 +11,4 @@ GetHash - Кроссплатформенное (linux/windows/...) вычисл�
 ![изображение](https://github.com/user-attachments/assets/e0004f30-19c3-4b06-97be-8cdbbfa95208)
 
 RPM, RPMS для ОС Альт - http://altrepo.ru/
+Windows - https://github.com/x09/gethash/releases/tag/v1.0
