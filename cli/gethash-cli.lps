@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="12"/>
+    <Units>
+      <Unit>
+        <Filename Value="gethash-cli.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="193"/>
+        <CursorPos X="27" Y="234"/>
+        <UsageCount Value="119"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../../HashLib4Pascal/HashLib/src/Base/HlpHashFactory.pas"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="347"/>
+        <CursorPos X="28" Y="385"/>
+        <UsageCount Value="29"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="gethash-cli.lpr"/>
+        <Caret Line="82" Column="10" TopLine="77"/>
+      </Position>
+      <Position>
+        <Filename Value="gethash-cli.lpr"/>
+        <Caret Line="89" Column="30" TopLine="47"/>
+      </Position>
+      <Position>
+        <Filename Value="gethash-cli.lpr"/>
+        <Caret Line="98" Column="54" TopLine="64"/>
+      </Position>
+      <Position>
+        <Filename Value="gethash-cli.lpr"/>
+        <Caret Line="201" TopLine="159"/>
+      </Position>
+      <Position>
+        <Filename Value="gethash-cli.lpr"/>
+        <Caret Line="56" TopLine="29"/>
+      </Position>
+      <Position>
+        <Filename Value="gethash-cli.lpr"/>
+        <Caret Line="84" Column="33" TopLine="68"/>
+      </Position>
+      <Position>
+        <Filename Value="gethash-cli.lpr"/>
+        <Caret Line="99" Column="23" TopLine="88"/>
+      </Position>
+      <Position>
+        <Filename Value="gethash-cli.lpr"/>
+        <Caret Line="96" Column="31" TopLine="73"/>
+      </Position>
+      <Position>
+        <Filename Value="gethash-cli.lpr"/>
+        <Caret Line="102" Column="30" TopLine="82"/>
+      </Position>
+      <Position>
+        <Filename Value="gethash-cli.lpr"/>
+        <Caret Line="92" Column="50" TopLine="53"/>
+      </Position>
+      <Position>
+        <Filename Value="gethash-cli.lpr"/>
+        <Caret Line="87" Column="50" TopLine="61"/>
+      </Position>
+      <Position>
+        <Filename Value="gethash-cli.lpr"/>
+        <Caret Line="94" TopLine="66"/>
+      </Position>
+      <Position>
+        <Filename Value="gethash-cli.lpr"/>
+        <Caret Line="100" TopLine="74"/>
+      </Position>
+      <Position>
+        <Filename Value="gethash-cli.lpr"/>
+        <Caret Line="236" Column="5" TopLine="207"/>
+      </Position>
+      <Position>
+        <Filename Value="gethash-cli.lpr"/>
+        <Caret Line="94" Column="58" TopLine="68"/>
+      </Position>
+      <Position>
+        <Filename Value="gethash-cli.lpr"/>
+        <Caret Line="232" Column="61" TopLine="2"/>
+      </Position>
+      <Position>
+        <Filename Value="gethash-cli.lpr"/>
+        <Caret Line="241" Column="60" TopLine="214"/>
+      </Position>
+      <Position>
+        <Filename Value="gethash-cli.lpr"/>
+        <Caret Line="13" Column="16"/>
+      </Position>
+      <Position>
+        <Filename Value="gethash-cli.lpr"/>
+        <Caret Line="132" Column="55" TopLine="122"/>
+      </Position>
+      <Position>
+        <Filename Value="gethash-cli.lpr"/>
+        <Caret Line="245" Column="55" TopLine="199"/>
+      </Position>
+      <Position>
+        <Filename Value="gethash-cli.lpr"/>
+        <Caret Line="236" Column="39" TopLine="191"/>
+      </Position>
+      <Position>
+        <Filename Value="gethash-cli.lpr"/>
+        <Caret Line="209" Column="39" TopLine="161"/>
+      </Position>
+      <Position>
+        <Filename Value="../../HashLib4Pascal/HashLib/src/Base/HlpHashFactory.pas"/>
+        <Caret Line="309" Column="71" TopLine="284"/>
+      </Position>
+      <Position>
+        <Filename Value="gethash-cli.lpr"/>
+        <Caret Line="345" Column="45" TopLine="305"/>
+      </Position>
+      <Position>
+        <Filename Value="gethash-cli.lpr"/>
+        <Caret Line="280" Column="22" TopLine="256"/>
+      </Position>
+      <Position>
+        <Filename Value="gethash-cli.lpr"/>
+        <Caret Line="309" Column="59" TopLine="265"/>
+      </Position>
+      <Position>
+        <Filename Value="gethash-cli.lpr"/>
+        <Caret Line="291" Column="58" TopLine="265"/>
+      </Position>
+      <Position>
+        <Filename Value="gethash-cli.lpr"/>
+        <Caret Line="357" Column="55" TopLine="307"/>
+      </Position>
+      <Position>
+        <Filename Value="gethash-cli.lpr"/>
+        <Caret Line="81" Column="13" TopLine="55"/>
+      </Position>
+      <Position>
+        <Filename Value="gethash-cli.lpr"/>
+        <Caret Line="100" Column="38" TopLine="92"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
