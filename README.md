@@ -17,6 +17,7 @@ Windows - https://github.com/x09/gethash/releases/tag/v1.0
 ![изображение](https://github.com/user-attachments/assets/2cfb2a7e-b3f2-4b88-998f-21e99b89238d)
 
 # Консольная версия
+## Linux
 ````
 [anton@dell GetHash]$ gethash-cli
 Usage: gethash-cli [PARAMETER(S)]… [FILE(S)]
@@ -84,4 +85,28 @@ Supported algoritms:
 CD31027CE865F682C8EE3F072A046807829060BE1597B416A99D3A3D36B84979 /tmp/1_2024-09-09_14-29.png
 0B1A582028B21C265BE74B97B80AE4E31EB53FAD467D012B437DF1529E16BE77 /tmp/2_2024-09-09_14-30.png
 7FCD1FCBDA35E43E865B63DD995CA44F86D28AD5C232FC6C01E50422172A570D /tmp/lpd_2024-09-10_16-20.png
+````
+
+## Windows
+````
+c:\Users\Admin\Downloads>gethash-cli.exe -a SHA1 *.exe
+Usage: gethash-cli [PARAMETER(S)]: [FILE(S)]
+Print checksums.
+
+  -h, --help      this help
+  -l, --list      list all algorithms
+  -a  --algo      specify the algorithm used
+  -f  --file      file or files for proccesing
+
+Report any bugs to https://github.com/x09/gethash
+````
+
+````
+c:\Users\Admin\Downloads>gethash-cli.exe -a SHA1 -f *.exe
+CA5D4F4A48CDA28A0A949D673D19A66D3D72E38A gethash-cli.exe
+0B1AF532D67160241750854030CB9A9ED901D0D4 gethash-cli_compressed.exe
+1109AB08F05A48A4913EABEEE0FDB9C1635D71D7 lazarus-3.4-fpc-3.2.2-win64.exe
+22C83E407C09AB05A95FB40455A0A77B6E9FE71C SCX-3400_Series_WIN_SPL_V3.13.12.02.38_CDV1.30.01.exe
+CE77B87FD972AA12C74BB36181371034B0BB051D X2GoClient_latest_mswin32-setup.exe
+DF61797B535E1D9B5CB5AFF9B2C6A5CED6897C76 Yandex.exe
 ````
