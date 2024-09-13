@@ -268,10 +268,10 @@ var
         'sha1':
           hash := THashFactory.TCrypto.CreateSHA1().ComputeFile(
             _filenames[x]).ToString();
-        'sha256':
+        'sha2_256':
           hash := THashFactory.TCrypto.CreateSHA2_256().ComputeFile(
             _filenames[x]).ToString();
-        'sha512':
+        'sha2_512':
           hash := THashFactory.TCrypto.CreateSHA2_512().ComputeFile(
             _filenames[x]).ToString();
         'gost':
