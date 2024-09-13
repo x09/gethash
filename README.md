@@ -17,7 +17,8 @@ Windows - https://github.com/x09/gethash/releases/tag/v1.0
 ![изображение](https://github.com/user-attachments/assets/2cfb2a7e-b3f2-4b88-998f-21e99b89238d)
 
 # Консольная версия
-````[anton@dell GetHash]$ gethash-cli
+````
+[anton@dell GetHash]$ gethash-cli
 Usage: gethash-cli [PARAMETER(S)]… [FILE(S)]
 Print checksums.
 
@@ -29,7 +30,8 @@ Print checksums.
 Report any bugs to https://github.com/x09/gethash
 ````
 
-````[anton@dell GetHash]$ gethash-cli -l
+````
+[anton@dell GetHash]$ gethash-cli -l
 Supported algoritms:
 1) BLAKE2B_256
 2) BLAKE2B_512
@@ -77,7 +79,8 @@ Supported algoritms:
 44) TIGER5_192
 ````
 
-````[anton@dell GetHash]$ gethash-cli -a GOST3411_2012_256 -f /tmp/*.png 
+````
+[anton@dell GetHash]$ gethash-cli -a GOST3411_2012_256 -f /tmp/*.png 
 CD31027CE865F682C8EE3F072A046807829060BE1597B416A99D3A3D36B84979 /tmp/1_2024-09-09_14-29.png
 0B1A582028B21C265BE74B97B80AE4E31EB53FAD467D012B437DF1529E16BE77 /tmp/2_2024-09-09_14-30.png
 7FCD1FCBDA35E43E865B63DD995CA44F86D28AD5C232FC6C01E50422172A570D /tmp/lpd_2024-09-10_16-20.png
